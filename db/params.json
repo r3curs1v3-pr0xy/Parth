@@ -43,7 +43,8 @@
     ],
     "doc": [
         "lfi",
-        "ssrf"
+        "ssrf",
+        "IDOR"
     ],
     "page": [
         "lfi",
@@ -426,7 +427,8 @@
     ],
     "email": [
         "xss",
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "p": [
         "xss"
@@ -444,27 +446,32 @@
         "xss"
     ],
     "emailto": [
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "token": [
         "xss"
     ],
     "username": [
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "csrf_token": [
         "xss"
     ],
     "unsubscribe_token": [
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "id": [
         "xss",
         "sqli",
-        "ssti"
+        "ssti",
+        "IDOR"
     ],
     "item": [
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "page_id": [
         "xss"
@@ -482,10 +489,12 @@
         "xss"
     ],
     "categoryid": [
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "key": [
-        "xss"
+        "xss",
+        "IDOR"
     ],
     "l": [
         "xss"
@@ -500,7 +509,8 @@
         "sqli"
     ],
     "report": [
-        "sqli"
+        "sqli",
+        "IDOR"
     ],
     "role": [
         "sqli"
@@ -509,7 +519,8 @@
         "sqli"
     ],
     "user": [
-        "sqli"
+        "sqli",
+        "IDOR"
     ],
     "sort": [
         "sqli"
@@ -542,7 +553,8 @@
         "sqli"
     ],
     "order": [
-        "sqli"
+        "sqli",
+        "order"
     ],
     "column": [
         "sqli"
@@ -558,7 +570,8 @@
         "sqli"
     ],
     "number": [
-        "sqli"
+        "sqli",
+        "IDOR"
     ],
     "filter": [
         "sqli"
@@ -576,7 +589,8 @@
         "ssrf"
     ],
     "edit": [
-        "ssrf"
+        "ssrf",
+        "IDOR"
     ],
     "grant": [
         "ssrf"
@@ -637,5 +651,17 @@
     ],
     "activity": [
         "ssti"
+    ],
+    "accounts": [
+        "IDOR"
+    ],
+    "no": [
+        "IDOR"
+    ],
+    "group": [
+        "IDOR"
+    ],
+    "group": [
+        "IDOR"
     ]
 }
